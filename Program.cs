@@ -8,7 +8,9 @@ namespace Lab8ConsoleApp
         {
             Console.Write("Введите число:");
             int num = Convert.ToInt32(Console.ReadLine());
-            Console.Write($"Число {num} в квадрате = {num * num}");
+            int squareNum = num * num;
+            int stepen3Num = squareNum * num;
+            Console.Write($"Число {num} в квадрате = {squareNum}, в третьей степени = {stepen3Num}.");
         }
     }
 }
